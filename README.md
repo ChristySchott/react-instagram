@@ -41,7 +41,17 @@ O projeto é uma reprodução da página inicial e do perfil do Instagram e foi 
 
 ## 🎨 Layout
 
-![Image React Instagram Layout]()
+Página Inicial:
+
+![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout1.JPG)
+
+![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout2.JPG)
+
+Perfil:
+
+![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout3.JPG)
+
+![Image React Instagram Layout](https://github.com/ChristySchott/react-instagram/blob/master/layout/layout4.JPG)
 
 ### Aprendizados:
 
