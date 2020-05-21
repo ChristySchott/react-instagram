@@ -1,0 +1,19 @@
+@import './base/settings';
+@import './base/base';
+
+//Components
+@import './components/header';
+@import './components/footer';
+
+//Main
+@import './components/main/main';
+@import './components/main/feed';
+@import './components/main/post';
+@import './components/main/stories';
+@import './components/main/sidebar';
+
+// Profile
+@import './components/profile/profile';
+@import './components/profile/content';
+@import './components/profile/info';
+

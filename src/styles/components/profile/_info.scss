@@ -1,0 +1,119 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.info-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    &__box-img {
+        flex: 1;
+
+        @include flexCenter;
+        justify-content: center;
+
+        img {
+            width: 150px;
+            border: 1px solid rgba(0, 0, 0, .3);
+            border-radius: 50%;
+            padding: 5px;
+        }
+    }
+
+    &__content {
+        flex: 2;
+
+        &--header {
+            @include flexCenter;
+
+            h3 {
+                margin: 0;
+                margin-right: 20px;
+                font-size: 28px;
+                font-weight: lighter;
+            }
+
+            ul {
+                @include flexCenter;
+            }
+
+            .button-profile {
+                background: transparent;
+                border: 1px solid rgba(0, 0, 0, .3);
+                padding: 5px 7px;
+                border-radius: 4px;
+                margin-right: 10px;
+                font-weight: bold;
+            }
+
+            .user-check {
+                padding: 4.5px 18px;
+            }
+
+            .dropdown {
+                padding: 4.5px 8px;
+            }
+        }
+
+        &--records {
+            @include flexCenter;
+            margin: 20px 0;
+            font-size: 16px;
+
+            ul {
+                @include flexCenter;
+
+                li {
+                    margin-right: 30px;
+
+                    span {
+                        font-weight: 600;
+                        margin-right: 3px;
+                    }
+                }
+
+            }
+        }
+
+        &--name {
+            .name {
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+
+            .link{
+                font-size: 12px;
+
+                a {
+                    text-decoration: none;
+                    color: rgba(0, 0, 0, .3);
+
+                    strong {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.info-stories {
+    margin: 50px 0;
+    @include flexCenter;
+
+    &__story {
+    margin-right: 25px;
+    text-align: center;
+    
+        img {
+            border: 1px solid rgba(0, 0, 0, .3);
+            border-radius: 50%;
+            padding: .2px;
+        }
+    }
+}
+

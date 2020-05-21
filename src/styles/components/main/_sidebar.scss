@@ -1,0 +1,74 @@
+p {
+    margin: 0;
+}
+
+.sidebar {
+    flex: 1;
+    top: 17%;
+    position: fixed;
+    width: 310px;
+    right: 14%;
+
+    &__header {
+        @include flexCenter;   
+
+        &--info {
+            margin-left: 10px;
+
+            .title {
+                font-weight: bold;
+            }
+
+            .name {
+                color: rgba(0, 0, 0, .4);
+            }
+        }
+    }
+
+    &__main {
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        &--title {
+            @include flexCenter;
+            justify-content: space-between;
+
+            padding: 10px 0;
+
+            .title {
+                color: rgba(0, 0, 0, .2);
+                font-weight: bold;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.sugestion {
+    @include flexCenter;
+    
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    &__people {
+        flex: 2;
+        @include flexCenter;
+        justify-content: flex-start;
+
+        margin-left: 10px;
+
+        &--info{       
+            .title {
+                font-weight: bold;
+            }
+            
+            .follow-you {
+                color: rgba(0, 0, 0, .4);
+            }
+        }
+    }
+}

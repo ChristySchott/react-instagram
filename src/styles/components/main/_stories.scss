@@ -1,0 +1,34 @@
+:root {
+    --jb7: 0,0,0;
+}
+
+.stories {
+    display: flex;
+    margin: 20px 20px 20px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px 5px;
+    position: relative;
+    overflow-x: auto;
+    max-width: 632px;
+
+    &::-webkit-scrollbar {
+        opacity:0;  
+    }
+}
+
+.story {
+    flex: 1;
+    min-width: 70px;
+    text-align: center;
+    
+    &:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    img {
+        border: 2px solid rgba(var(--jb7,0,0,0),.3);
+        border-radius: 50%;
+        position:relative;
+    }
+}

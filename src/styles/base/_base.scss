@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $s-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-header {
+    padding: 8px 30px !important;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.4);
+    font-size: 12px;
+}
+
+.input-comment {
+    padding: 10px 5px;
+    border: none;
+}
+
+.aux-padding {
+    padding: 0 10px;
+}
