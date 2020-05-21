@@ -15,7 +15,7 @@
 
 ## 💻 Projeto
 
-O projeto é uma reprodução da página inicial e do perfil do Instagram e foi desenvolvido para praticar o uso do React Router, Sass e Webpack na biblioteca React. Em breve serão feitas alterações no projeto, tornando o mesmo responsivo com o uso de media queries e utilizando React Modals e outras libs, tornando-o funcional;
+O projeto é uma reprodução da página inicial e do perfil do Instagram e foi desenvolvido para praticar o uso do React Router, Sass e Webpack na biblioteca React. Em breve serão feitas alterações no projeto, tornando o mesmo responsivo com o uso de media queries e utilizando React Modals e outras libs, tornando-o funcional.
 
 ## :rocket: Tecnologias
 
