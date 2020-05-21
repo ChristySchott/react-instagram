@@ -37,7 +37,7 @@ O projeto é uma reprodução da página inicial e do perfil do Instagram e foi 
 
 - Execute o 'npm install'
 
-- Execute 'npm run dev-server' e o programa rodará na porta localhost:/8080
+- Execute 'npm run dev-server' e o programa rodará na porta localhost:8080
 
 ## 🎨 Layout
 
